@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="C:\Users\Fabio\Documents\Sueli\node_modules\bootstrap\compiler\bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css"> 
   </head>
   <body>
@@ -73,7 +73,7 @@
                     <span class="sr-only">Avançar</span>
                 </a>
             </div>
-        </div>
+    </div>
       
       <br>
 
@@ -307,147 +307,197 @@
                 </div>
         </div>
 
+        
+        
     <!-- CARDS !-->
     <div class="row mb-3">
 
             <div class="col-sm-4">
 
                 <div class="card">
-                    <img class="card-img-top" src="imagens/card1.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Imovel 1</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtitulo do imovel 1</h6>
-                        <p class="card-text">Texto Qualquer</p>
-                        <a href="#" class="card-link">Saiba Mais</a>
-                    </div>
+                        <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Casa - Leblon</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">4.280,90</h6>
+                            <p class="card-text">4 Quartos. Varanda Gourmet. Ótima Localização.</p>
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">Saiba Mais</a>
+                        </div>
                 </div>
-            </div>
-
-            <div class="col-sm-4">
-
-                <div class="card">
-
-                    <img class="card-img-top" src="imagens/card2.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Imovel 2</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtitulo do imovel 2</h6>
-                        <p class="card-text">Texto Qualquer</p>
-                        <a href="#" class="card-link">Saiba Mais</a>
-                    </div>
                 </div>
-            </div>
-
-            <div class="col-sm-4">
-
-                <div class="card">
-
-                    <img class="card-img-top" src="imagens/card2.jpg">
-                    <div class="card-body">
-                            <h4 class="card-title">Imovel 3</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Subtitulo do imovel 3</h6>
-                            <p class="card-text">Texto Qualquer</p>
-                            <a href="#" class="card-link">Saiba Mais</a>
-                    </div>
-
-                </div>
-            </div>
-          </div>
-    <div class="row mb-5">
-
-            <div class="col-sm-4">
-
-                <div class="card">
-                    <img class="card-img-top" src="imagens/card1.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Apt. 2 quartos no Leblon</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">1.230.000</h6>
-                        <p class="card-text">Texto Qualquer</p>
-                        <a href="#" class="card-link">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-
-                <div class="card">
-
-                    <img class="card-img-top" src="imagens/card2.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">Imovel 5</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtitulo do imovel 5</h6>
-                        <p class="card-text">Texto Qualquer</p>
-                        <a href="#" class="card-link">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-
-                <div class="card">
-
-                    <img class="card-img-top" src="imagens/leblon-capa.jpg">
-                    <div class="card-body">
-                            <h4 class="card-title">Casa - LEBLON</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">4.250,98</h6>
-                            <p class="card-text">3 Quartos, Ótima Localização, Varanda Gourmet</p>
-                            <a href="#" class="card-link" data-toggle="modal" data-target="#sitemodal">Saiba Mais</a>
-                    </div>
-
-                </div>
-            </div>
-          </div>
-
-            <!-- Modal - Saiba Mais -->
-            <div class="modal" id="sitemodal" tabindex="-1" role="dialog">
+                <div class="modal" id="modal-card1" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <div class="modal-header">
 
-                                <h5 class="modal-title">Casa - LEBLON</h5>
+                            <div class="modal-header">
+                                <h5 class="modal-title"> Casa - Leblon </h5>
                                 <button type="button" class="close" data-dismiss="modal">
                                     <span>X</span>
                                 </button>
-
                             </div>
                             <div class="modal-body">
                                 <div class="container">
-                                    <div id="carouselmodal" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselmodal" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselmodal" data-slide-to="1"></li>
-                                            <li data-target="#carouselmodal" data-slide-to="2"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img src="imagens\leblon1.jpg" class="img-fluid d-block" width=100%>
-
+                                    <div id="carousel-card1" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-card1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-card1" data-slide-to="1"></li>
+                                                <li data-target="#carousel-card1" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="imagens\leblon-capa.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\leblon1.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\leblon2.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
                                             </div>
-                                            <div class="carousel-item">
-                                                <img src="imagens\leblon2.jpg" class="img-fluid d-block" width=100%>
-
-                                            </div>
-                                            <div class="carousel-item">
-                                                <img src="imagens\leblon3.jpg" class="img-fluid d-block" width=100%>
-                                            </div>
-                                        </div>
-                                        <a class="carousel-control-prev" href="#carouselmodal" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon"></span>
-                                            <span class="sr-only">Anterior</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselmodal" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon"></span>
-                                            <span class="sr-only">Avançar</span>
-                                        </a>
+                                            <a class="carousel-control-prev" href="#carousel-card1" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                                <span class="sr-only">Anterior</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-card1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                                <span class="sr-only">Avançar</span>
+                                            </a>
                                     </div>
-                            </div>
+                                </div>
+                                <h4>4.280,90</h4>
+                                <span>4 Quartos. Varanda Gourmet. Ótima Localização.</span>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Mais Informações</button>
+                                <button type="button" class="btn btn-danger">Mais Informações</button>
                             </div>
                         </div>
                     </div>
                 </div>
-    </div>
+
+        
+            <div class="col-sm-4">
+
+                <div class="card">
+
+                    <img class="card-img-top" src="imagens/zzz.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Apartamento - Tijuca</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">800.000</h6>
+                        <p class="card-text">Prox. Metrô. Comércio próx. 2 quartos</p>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card2">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="modal-card2" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h5 class="modal-title"> Exemplo </h5>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                    <div id="carousel-card2" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-card2" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-card2" data-slide-to="1"></li>
+                                                <li data-target="#carousel-card2" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="imagens\zzz.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\tijuca1.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\tijuca2.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carousel-card2" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                                <span class="sr-only">Anterior</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-card2" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                                <span class="sr-only">Avançar</span>
+                                            </a>
+                                    </div>
+                                </div>
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Mais Informações</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-sm-4">
+
+                <div class="card">
+
+                    <img class="card-img-top" src="imagens/meier-capa.jpg">
+                    <div class="card-body">
+                            <h4 class="card-title">Apartamento - MÉIER</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">500.000</h6>
+                            <p class="card-text">2 quartos. Próx. Trem. Área de Lazer</p>
+                            <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card3">Saiba Mais</a>
+                    </div>
+
+                </div>
+            </div>
+                <div class="modal" id="modal-card3" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        
+                            <div class="modal-header">
+                                <h5 class="modal-title"> Exemplo </h5>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span>X</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div id="carousel-card3" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-card3" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-card3" data-slide-to="1"></li>
+                                                <li data-target="#carousel-card3" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="imagens\banner1.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\banner2.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="imagens\banner3.jpg" class="img-fluid d-block" width=100%>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carousel-card3" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                                <span class="sr-only">Anterior</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-card3" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                                <span class="sr-only">Avançar</span>
+                                            </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Mais Informações</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
       
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules\jquery\dist\jquery.js"></script>

@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarSite">
             <ul class="navbar-nav">
                 <li clas="nav-item">
-                    <a class="nav-link" href="quemsomos.html">Quem Somos</a>
+                    <a class="nav-link" href="quem.html">Quem Somos</a>
                 </li>
                 <li clas="nav-item">
                     <a class="nav-link" href="contato.html">Contato</a>
@@ -33,6 +33,7 @@
             </ul>
         </div>
         </div>
+        <button class="anunciar">Anunciar imóvel</button>
     </nav>
       <br>
 
@@ -87,23 +88,24 @@
     <div class="container mb-5"> 
 
     <!-- SELECT-BOXES -->
-    <div class="row mb-5">
+    <div class="row mb-5" id="selectboxes">
 
-                <div class="col-sm-2">
-                   <div class="input-group mb-3">
+                <div class="col-sm-auto">
+                   <div class="input-group">
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect01">Interesse</label><br>
                                 <select class="custom-select" id="inputGroupSelect01">
                                     <option value="comprar">Comprar</option>
                                     <option value="alugar">Alugar</option>
+                                    <option value="alugar">Vender</option>
                                 </select>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-sm-2">
-                    <div class="input-group mb-3">
+                <div class="col-sm-auto">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect02">Tipo</label><br>
                                 <select class="custom-select" id="inputGroupSelect02">
@@ -116,8 +118,8 @@
 
                 </div>
 
-                <div class="col-sm-2">
-                    <div class="input-group mb-3">
+                <div class="col-sm-auto">
+                    <div class="input-group">
                       <div class="input-group-prepend">
                         <label class="input-group-text" for="inputGroupSelect03">Quartos</label><br>
                           <select class="custom-select" id="inputGroupSelect03">
@@ -130,8 +132,8 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2">
-                    <div class="input-group mb-3">
+                <div class="col-sm-auto">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect04">Cidade</label><br>
                                 <select class="custom-select" id="inputGroupSelect04">
@@ -144,8 +146,8 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2">
-                    <div class="input-group mb-3">
+                <div class="col-sm-auto">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <label class="input-group-text" for="inputGroupSelect05">Bairro</label><br>
                                 <select class="custom-select" id="inputGroupSelect05">
@@ -318,7 +320,9 @@
             <div class="col-sm-4">
 
                 <div class="card">
-                        <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                            <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                        </a>
                         <div class="card-body">
                             <h4 class="card-title">Casa - Leblon</h4>
                             <h6 class="card-subtitle mb-2 text-muted">4.280,90</h6>
@@ -381,7 +385,9 @@
 
                 <div class="card">
 
-                    <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                     <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   </a>
                     <div class="card-body">
                         <h4 class="card-title">Apartamento - Tijuca</h4>
                         <h6 class="card-subtitle mb-2 text-muted">800.000</h6>
@@ -442,9 +448,11 @@
 
                 <div class="card">
 
-                    <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                     <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   </a>
                     <div class="card-body">
-                            <h4 class="card-title">Apartamento - MÉIER</h4>
+                            <h4 class="card-title">Apartamento - Méier</h4>
                             <h6 class="card-subtitle mb-2 text-muted">500.000</h6>
                             <p class="card-text">2 quartos. Próx. Trem. Área de Lazer</p>
                             <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card3">Saiba Mais</a>
@@ -506,7 +514,9 @@
             <div class="col-sm-4">
 
                 <div class="card">
-                        <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                     <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   </a>
                         <div class="card-body">
                             <h4 class="card-title">Casa - Leblon</h4>
                             <h6 class="card-subtitle mb-2 text-muted">4.280,90</h6>
@@ -569,7 +579,9 @@
 
                 <div class="card">
 
-                    <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                     <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   </a>
                     <div class="card-body">
                         <h4 class="card-title">Apartamento - Tijuca</h4>
                         <h6 class="card-subtitle mb-2 text-muted">800.000</h6>
@@ -630,9 +642,11 @@
 
                 <div class="card">
 
-                    <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card1">
+                     <img class="card-img-top" src="imagens/leblon-capa.jpg">
+                   </a>
                     <div class="card-body">
-                            <h4 class="card-title">Apartamento - MÉIER</h4>
+                            <h4 class="card-title">Apartamento - Méier</h4>
                             <h6 class="card-subtitle mb-2 text-muted">500.000</h6>
                             <p class="card-text">2 quartos. Próx. Trem. Área de Lazer</p>
                             <a href="#" class="card-link" data-toggle="modal" data-target="#modal-card3">Saiba Mais</a>
